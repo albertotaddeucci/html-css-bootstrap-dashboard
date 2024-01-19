@@ -20,46 +20,47 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                                 NAVBAR                                  -->
     <!-- ----------------------------------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid bg-white">
-            <a class="navbar-brand d-none d-lg-block" href="#">
-                <img src="img/logo.svg" alt="Boolean" class="align-bottom ">
-            </a>
-            <a class="navbar-brand d-lg-none" href="#">
-                <img src="img/mobile-logo.png" alt="Boolean" width="50" height="50" class="align-bottom ">
-            </a>
-            
-
-            <div class="btn-toolbar flex-grow-1" role="toolbar" aria-label="Toolbar with button groups">
-                
-                <div class="input-group flex-grow-1">
-                  <div class="input-group-text border-0 bg-body-secondary" id="btnGroupAddon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <input type="text" class="form-control border-0  bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Input group example" aria-describedby="btnGroupAddon">
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid bg-white my-lg-1">
+          <a class="navbar-brand d-none d-lg-block" href="#">
+              <img src="img/logo.svg" alt="Boolean" class="align-bottom my_logo_big">
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="#">
+              <img src="img/mobile-logo.png" alt="Boolean" class="align-bottom my_logo">
+          </a>
+          
+  
+          <div class="btn-toolbar flex-grow-1 px-2" role="toolbar" aria-label="Toolbar with button groups">
+              
+              <div class="input-group flex-grow-1 p-1 p-lg-0 ">
+                <div class="input-group-text border-0 bg-body-secondary p-2" id="btnGroupAddon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" class="form-control border-0 bg-body-secondary p-2 shadow-none " placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Input group example" aria-describedby="btnGroupAddon">
+              </div>
+          </div>
+          <button type="button" class="btn  border-0 d-none d-lg-block">
+              <i class="fa-solid fa-list-ul"></i>
+          </button>
             <button type="button" class="btn  border-0 d-none d-lg-block">
-                <i class="fa-solid fa-list-ul"></i>
-            </button>
-              <button type="button" class="btn  border-0 d-none d-lg-block">
-                <i class="fa-solid fa-circle-question"></i>
-            </button>
-              <button type="button" class="btn  border-0 d-none d-lg-block">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
-            
-            <div class="btn-group dropstart" role="group">
-                <button type="button" class="btn  border-0" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-bell text-warning "></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Profilo</a></li>
-                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                  <li><a class="dropdown-item" href="#">Log out</a></li>
+              <i class="fa-solid fa-circle-question"></i>
+          </button>
+            <button type="button" class="btn  border-0 d-none d-lg-block">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          
+          <div class="btn-group dropstart" role="group">
+              <button type="button" class="btn  border-0 p-1 ps-4 ps-lg-2" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bell text-warning "></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                <li><a class="dropdown-item" href="#">Log out</a></li>
+  
+              </ul>
+          </div>
+                        
+      </div>
 
-                </ul>
-            </div>
-                          
-        </div>
     </nav>
 
     <div class="container-fluid">

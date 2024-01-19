@@ -1,3 +1,11 @@
+.my_logo{
+    height: 40px;
+}
+
+.my_logo_big{
+    height: 26px;
+}
+
 .aside{
     max-width: 68px;
     height: 100%;
@@ -15,6 +23,6 @@
 }
 
 .view{
-    height: calc(100vh - 76px);
+    height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
