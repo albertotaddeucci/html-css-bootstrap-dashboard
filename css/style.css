@@ -1,14 +1,16 @@
 .aside{
-    max-width: 100px;
+    max-width: 68px;
     height: 100%;
 
+    background-image: url(../img/sidebar-bg.png);
+
     /* test */
-    background-color: lightblue;
+    background-color: #051e34;
 }
 
 @media screen and (min-width: 992px){
     .aside{
-        max-width: 300px;
+        max-width: 150px;
     }
 }
 

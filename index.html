@@ -71,15 +71,25 @@
         <div class="row view">
 
             <!-- -------------------------------- aside -------------------------------- -->
-            <div class="col aside d-flex flex-column justify-content-between">
+            <div class="col aside d-flex flex-column justify-content-between py-3">
               <div>
-                <ul>
-                  <li>Home</li>
-                  <li>Stats</li>
-                  <li>Signal</li>
+                <ul class="list-unstyled ">
+                  <li>
+                    <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center  text-white"><i class="fa-solid fa-house"></i><span class="d-none d-lg-block">Home</span></button>
+                  </li>
+                    
+                  <li>
+                    <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-block">Stats</span></button>
+                  </li>
+                  <li>
+                    <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-signal"></i><span class="d-none d-lg-block">Signal</span></button>
+                  </li>
                 </ul>
               </div>
-              <div>Admin</div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-gear"></i><span class="d-none d-lg-block">Admin</span></button>
+
+              </div>
 
 
             </div>
@@ -132,10 +142,10 @@
 
                 
                 <div class="row">
-                    <div class="col-12 col-lg-8 pt-4 | test bg-danger">
+                    <div class="col-12 col-lg-8  pt-3 pt-lg-4 | test bg-danger">
 
                         <!-- ------------------------------- Classi -------------------------------- -->
-                        <div class="card ">
+                        <div class="card mb-3 mb-lg-4">
                             <div class="card-header">
                               <h3>Prossime classi</h3>
                             </div>
@@ -144,22 +154,25 @@
                                 <thead>
                                   <tr>
                                     <td>Nome</td>
-                                    <td>Data inizio</td>
-                                    <td>ROI</td>
-                                    <td>Stato</td>
-                                    <td>Azioni</td>
+                                    <td class="text-center">Data inizio</td>
+                                    <td class="text-center">ROI</td>
+                                    <td class="text-center">Stato</td>
+                                    <td class="text-center">Azioni</td>
 
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <!-- <th scope="row">1</th> -->
-                                    <td>
-                                      <img src="img/class-avatar.jp" alt="">
-                                      Classe 75</td>
+                                    <td>Jhon </td>
                                     <td>15 Feb 2021</td>
                                     <td>20%</td>
                                     <td>Done</td>
+                                    <td>
+                                      <div>
+                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+
+                                      </div>
                                   </tr>
                                   
                                 </tbody>
@@ -174,18 +187,19 @@
                               Featured
                             </div>
                             <ul class="list-group list-group-flush">
-                              <li class="list-group-item"></li>
-                              <li class="list-group-item">A second item</li>
-                              <li class="list-group-item">A third item</li>
+                              <li class="list-group-item">
+                                1
+                              </li>
+                              
                             </ul>
                         </div>
                     </div>
 
                     
-                    <div class="col-12 col-lg-4 | test bg-danger">
+                    <div class="col-12 col-lg-4 py-3 pt-lg-4 | test bg-danger">
 
                         <!-- -------------------------------- TODO --------------------------------- -->
-                        <div class="card">
+                        <div class="card mb-3 mb-lg-4">
                             <div class="card-header">
                               Featured
                             </div>
