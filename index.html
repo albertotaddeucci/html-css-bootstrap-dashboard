@@ -71,7 +71,15 @@
         <div class="row"  style="height: calc(100vh - 56px) ;">
 
             <!-- -------------------------------- aside -------------------------------- -->
-            <div class="col aside">aside
+            <div class="col aside d-flex flex-column justify-content-between">
+              <div>
+                <ul>
+                  <li>Home</li>
+                  <li>Stats</li>
+                  <li>Signal</li>
+                </ul>
+              </div>
+              <div>Admin</div>
 
 
             </div>
@@ -80,15 +88,45 @@
             <div class="col">
                 
                 <!-- ------------------------------- Header -------------------------------- -->
-                <div class="row">
-                    <div class="col-12 col-md-4 col-lg-6">
-                        col
+                <div class="row bg-primary text-white">
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-3 order-md-3 py-3 text-md-center ">
+                      <span class="me-3">Nuovo studente</span>
+                      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                            Offcanvas right
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          ...
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
-                        col
+
+
+                    <div class="col-12 col-md-4 col-lg-5 col-xl-6">
+                      <h1 class="pt-md-3">Boolean</h1>
+                      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item bg-secondary rounded-pill px-2">3 app</a></li>
+                          <li class="breadcrumb-item d-lg-none"><i class="fa-solid fa-plus"></i></a></li>
+                          <li class="breadcrumb-item d-none d-lg-block">Bolean mobile app</li>
+                          <li class="breadcrumb-item d-none d-lg-block">Bolean web app</li>
+                          <li class="breadcrumb-item d-none d-lg-block">Bolean blog app</li>
+
+                        </ol>
+                      </nav>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
-                        col
+
+
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-3 py-3">
+                      <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                      <span class="fs-2">125</span>
                     </div>
                 </div>
 
