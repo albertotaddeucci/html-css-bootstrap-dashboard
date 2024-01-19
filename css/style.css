@@ -1,5 +1,6 @@
 .aside{
     max-width: 100px;
+    height: 100%;
 
     /* test */
     background-color: lightblue;
@@ -10,3 +11,8 @@
         max-width: 300px;
     }
 }
+
+.view{
+    height: calc(100vh - 76px);
+}
+

@@ -68,7 +68,7 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                                  MAIN                                  -->
         <!-- ----------------------------------------------------------------------- -->
-        <div class="row"  style="height: calc(100vh - 56px) ;">
+        <div class="row view">
 
             <!-- -------------------------------- aside -------------------------------- -->
             <div class="col aside d-flex flex-column justify-content-between">
@@ -85,7 +85,7 @@
             </div>
             
             <!-- ---------------------------- Main content ---------------------------- -->                
-            <div class="col">
+            <div class="col overflow-auto" style="height: 100%;">
                 
                 <!-- ------------------------------- Header -------------------------------- -->
                 <div class="row bg-primary text-white">
@@ -132,17 +132,39 @@
 
                 
                 <div class="row">
-                    <div class="col-12 col-lg-8 | test bg-danger">
+                    <div class="col-12 col-lg-8 pt-4 | test bg-danger">
 
                         <!-- ------------------------------- Classi -------------------------------- -->
-                        <div class="card">
+                        <div class="card ">
                             <div class="card-header">
-                              Featured
+                              <h3>Prossime classi</h3>
                             </div>
                             <ul class="list-group list-group-flush">
-                              <li class="list-group-item">An item</li>
-                              <li class="list-group-item">A second item</li>
-                              <li class="list-group-item">A third item</li>
+                              <li class="list-group-item"><table class="table">
+                                <thead>
+                                  <tr>
+                                    <td>Nome</td>
+                                    <td>Data inizio</td>
+                                    <td>ROI</td>
+                                    <td>Stato</td>
+                                    <td>Azioni</td>
+
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <!-- <th scope="row">1</th> -->
+                                    <td>
+                                      <img src="img/class-avatar.jp" alt="">
+                                      Classe 75</td>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>Done</td>
+                                  </tr>
+                                  
+                                </tbody>
+                              </table></li>
+                              
                             </ul>
                         </div>
 
@@ -152,7 +174,7 @@
                               Featured
                             </div>
                             <ul class="list-group list-group-flush">
-                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item"></li>
                               <li class="list-group-item">A second item</li>
                               <li class="list-group-item">A third item</li>
                             </ul>
