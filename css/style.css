@@ -29,9 +29,9 @@
     width: 30px;
 }
 
-.my_col_span{
+/* .my_col_span{
     width: 40%;
-}
+} */
 
 /* Responsive */
 
@@ -40,8 +40,18 @@
         max-width: 150px;
     }
 
-    .offcanvas{
-        max-width: 60%;
+    /* .offcanvas{
+        max-width: 50%;
+    }
+
+    .my_col_span{
+        width: 30%;
+    } */
+}
+/* 
+@media screen and (min-width: 1200px){
+    .my_col_span{
+        width: 50%;
     }
 }
 
@@ -49,6 +59,7 @@
     .my_col_span{
         width: 60%;
     }
-}
+} */
+
 
 
