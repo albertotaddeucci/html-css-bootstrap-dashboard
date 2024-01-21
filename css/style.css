@@ -1,3 +1,4 @@
+/* logo */
 .my_logo{
     height: 40px;
 }
@@ -6,23 +7,48 @@
     height: 26px;
 }
 
+/* main */
+.view{
+    height: calc(100vh - 64px);   /*56px - navbar height*/
+}
+
+/* aside */
 .aside{
     max-width: 68px;
     height: 100%;
-
     background-image: url(../img/sidebar-bg.png);
 
-    /* test */
     background-color: #051e34;
 }
+
+.my_dark_blu{
+    background-color:#165bba;
+}
+
+.list-group-item img{
+    width: 30px;
+}
+
+.my_col_span{
+    width: 40%;
+}
+
+/* Responsive */
 
 @media screen and (min-width: 992px){
     .aside{
         max-width: 150px;
     }
+
+    .offcanvas{
+        max-width: 60%;
+    }
 }
 
-.view{
-    height: calc(100vh - 64px);   /*56px - navbar height*/
+@media screen and (min-width: 1400px){
+    .my_col_span{
+        width: 60%;
+    }
 }
+
 
