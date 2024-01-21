@@ -1,3 +1,8 @@
+/* color */
+.my_dark_blu{
+    background-color:#165bba;
+}
+
 /* logo */
 .my_logo{
     height: 40px;
@@ -5,11 +10,6 @@
 
 .my_logo_big{
     height: 26px;
-}
-
-/* main */
-.view{
-    height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
 /* aside */
@@ -21,17 +21,15 @@
     background-color: #051e34;
 }
 
-.my_dark_blu{
-    background-color:#165bba;
+/* main */
+.view{
+    height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
 .list-group-item img{
     width: 30px;
 }
 
-/* .my_col_span{
-    width: 40%;
-} */
 
 /* Responsive */
 
@@ -40,26 +38,13 @@
         max-width: 150px;
     }
 
-    /* .offcanvas{
+    .offcanvas{
         max-width: 50%;
     }
 
-    .my_col_span{
-        width: 30%;
-    } */
-}
-/* 
-@media screen and (min-width: 1200px){
-    .my_col_span{
-        width: 50%;
-    }
 }
 
-@media screen and (min-width: 1400px){
-    .my_col_span{
-        width: 60%;
-    }
-} */
+
 
 
 
