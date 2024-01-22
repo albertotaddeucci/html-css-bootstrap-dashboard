@@ -26,6 +26,10 @@
     height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
+.view_main{
+    height: 100%;
+}
+
 .list-group-item img{
     width: 30px;
 }
