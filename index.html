@@ -69,33 +69,35 @@
 
     <div class="container-fluid">
 
-
       <div class="row view">
 
         <!-- ----------------------------------------------------------------------- -->
         <!--                                  ASIDE                                 -->
         <!-- ----------------------------------------------------------------------- -->
-        <div class="col aside">
+        <div class="col aside h-100">
 
           <div class="row align-content-between h-100 py-3 m-lg-auto">
             <div class="col">
               <ul class="list-unstyled">
                 <li>
-                  <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center  text-white"><i class="fa-solid fa-house"></i><span class="d-none d-lg-block">Home</span></button>
+                  <button type="button" class="btn btn-outline-secondary mb-1 border-0 rounded-0 d-flex gap-3 align-items-center text-white"><i class="fa-solid fa-house"></i><span class="d-none d-lg-block">Home</span></button>
                 </li>
                   
                 <li>
-                  <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-block">Stats</span></button>
+                  <button type="button" class="btn btn-outline-secondary mb-1 border-0 rounded-0 d-flex gap-3 align-items-center text-white ">
+                    <i class="fa-solid fa-chart-simple me-1"></i>
+                    <span class="d-none d-lg-block">Stats</span>
+                  </button>
                 </li>
                 <li>
-                  <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-signal"></i><span class="d-none d-lg-block">Signal</span></button>
+                  <button type="button" class="btn btn-outline-secondary border-0 rounded-0 d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-signal"></i><span class="d-none d-lg-block">Signal</span></button>
                 </li>
               </ul>
   
             </div>
             <div class="col">
               <div>
-                <button type="button" class="btn btn-outline-secondary border-0 rounded-0  d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-gear"></i><span class="d-none d-lg-block">Admin</span></button>
+                <button type="button" class="btn btn-outline-secondary m-auto border-0 rounded-0 d-flex gap-3 align-items-center text-white "><i class="fa-solid fa-gear"></i><span class="d-none d-lg-block">Admin</span></button>
       
               </div>
   
@@ -106,10 +108,12 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                                  MAIN                                   -->
         <!-- ----------------------------------------------------------------------- -->
-        <div class="col overflow-auto view_main bg-body-tertiary" >
+        <div class="col overflow-auto h-100 bg-body-tertiary" >
           
           <!-- ------------------------------- Header -------------------------------- -->
           <div class="row bg-primary text-white py-md-3">
+            
+            <!-- Nuovo studente -->
             <div class="col-12 col-md-4 col-lg-3 col-xl-3 order-md-3 py-4 py-md-0 text-md-center">
               <span class="me-3">Nuovo studente</span>
               <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -117,7 +121,7 @@
               </button>
 
               <!-- ------------------------------ offcanva ------------------------------ -->
-              <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas offcanvas-end w-100 w-lg-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasRightLabel">
                     Inserisci un nuovo studente
@@ -229,9 +233,10 @@
 
                 </div>
               </div>
+              <!-- ---------------------------- fine offcanva ---------------------------- -->
             </div>
 
-
+            <!-- Boolean -->
             <div class="col-12 col-md-4 col-lg-6 col-xl-6">
               <div class="d-flex flex-row align-items-baseline gap-1 pb-2">
                 
@@ -267,6 +272,7 @@
               </nav>
             </div>
 
+            <!-- Studenti online -->
             <div class="col-12 col-md-4 col-lg-3 col-xl-3 pb-4">
               <p class="m-0">Studenti online negli ultimi 30 minuti</p>
               <span class="fs-2 fw-medium">125</span>
@@ -279,6 +285,7 @@
           <div class="row">
 
             <div class="col-12 col-lg-8  pt-3 pt-lg-4">
+
               <!-- ------------------------------- Prossime classi -------------------------------- -->
               <div class="card mb-3 mb-lg-4">
                 <div class="card-header">

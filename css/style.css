@@ -19,8 +19,7 @@ body{
 
 /* aside */
 .aside{
-    max-width: 68px;
-    height: 100%;
+    max-width: 68px;    
 
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
@@ -31,24 +30,15 @@ body{
     height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
-.view_main{
-    height: 100%;
-}
-
 td img{
     width: 30px;
 }
 
 
-/* Responsive */
-
+/* ------------------------------- Responsive ------------------------------- */
 @media screen and (min-width: 992px){
     .aside{
         max-width: 150px;
-    }
-
-    .offcanvas{
-        max-width: 50%;
     }
 
 }
