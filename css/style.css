@@ -19,8 +19,6 @@ body{
 
 /* aside */
 .aside{
-    max-width: 68px;    
-
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
 }
@@ -37,10 +35,6 @@ td img{
 
 /* ------------------------------- Responsive ------------------------------- */
 @media screen and (min-width: 992px){
-    .aside{
-        max-width: 150px;
-    }
-
     .offcanvas{
         max-width: 50%;
     }
