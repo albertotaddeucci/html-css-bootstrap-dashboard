@@ -41,6 +41,10 @@ td img{
         max-width: 150px;
     }
 
+    .offcanvas{
+        max-width: 50%;
+    }
+
 }
 
 
