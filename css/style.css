@@ -28,6 +28,13 @@ body{
     height: calc(100vh - 64px);   /*56px - navbar height*/
 }
 
+.my_cell_long{
+    width: 110px;
+}
+.my_cell_short{
+    width: 50px;
+}
+
 td img{
     width: 30px;
 }
